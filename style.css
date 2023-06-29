@@ -1,0 +1,178 @@
+body {
+    background-color: #ffffff;
+}
+
+.h1,
+.h2 {
+    text-align: center;
+}
+.h1 {
+    font-size: 35px;
+}
+.h2 {
+    font-size: 25px;
+    font-style: oblique;
+}
+.block-01 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: inherit;
+}
+.hl::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+.my-text-01 {
+    margin: 50px;
+    margin-bottom: 5px;
+}
+.my-text-01,
+.my-text-02,
+.my-text-03 {
+    text-align: center;
+}
+.my-text-02 > p {
+    font-size: 20px;
+}
+.my-text-03 > p {
+    color: #f5de00;
+}
+.my-text-01 > p {
+    color: #000;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Blogger Sans', sans-serif;
+}
+
+
+p.title-1 {
+    font-weight: bold;
+}
+.title-1-1 {
+    display: grid;
+    grid-column: 1/3;
+    text-align: center;
+    font-size: x-large;
+}
+.title-1-2 {
+    display: grid;
+    grid-column: 1/4;
+    text-align: center;
+    font-size: x-large;
+}
+
+.text-002 {
+    font-size: x-large;
+    border: 2px #000 solid;
+    background-color: #ffd600;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    text-align: center;
+}
+p.text-001 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.block-graf {
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #1c29a9;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.35);
+}
+.block-graf > p {
+    font-size: x-large;
+    text-align: center;
+    margin: 10px;
+}
+.curr-graff {
+    height: 300px;
+    width: 500px;
+    margin: auto;
+}
+.bar {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.r-block,
+.r-block-2 {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #ffffff;
+}
+.r-block button,
+.r-block-2 button {
+    display: grid;\
+    width: 45%;
+    margin: auto;
+    margin-bottom: 7px;
+    border: solid #000000 2px;
+    border-radius: 5px;
+    background-color: #00f4fc;
+}
+
+.r-block button:active,
+.r-block-2 button:active {
+    font-weight: bold;
+    border: dashed #000 2px;
+}
+.r-block-2 input {
+    width: 40px;
+    font-size: 15px;
+}
+.title-001 {
+    margin: auto;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+}
+.title-001 input {
+    width: 40px;
+    font-size: 15px;
+}
+.center-001 input {
+    width: 60px;
+    font-size: 15px;
+}
+#butt-02,
+#butt-003 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    margin-top: 3px;
+}
+.curr-graff {
+    text-align: center;
+}
+.curr-graff_02 {
+    text-align: center;
+}
+#p-1-1 {
+    text-align: center;
+}
+#inl {
+    display: inline-block;
+}
+.center-001 {
+    margin: 0 auto;
+    text-align: center;
+    height: 40px;
+}
+.block-v-1 {
+    padding: 10px;
+}

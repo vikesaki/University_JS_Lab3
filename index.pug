@@ -1,0 +1,40 @@
+extends template
+
+block head
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async)
+
+block footer
+    script(src="https://d3js.org/d3.v5.min.js")
+    script(src='script.js')
+    script(src='task_2.js')
+
+
+block content
+    .head_01
+        .my-text-02
+            p Cardioid graph
+    div.r-block
+        div.title-001
+            p Number of figures:
+                input(type="text", name="", value="40")
+                button#butt-02 Generate
+        div#graf-container
+            div.curr-graff
+            p#p-1-1 Invalid number of shapes entered. Enter values between 10 and 500
+    .my-text-02
+        p Function graph
+    div.r-block-2
+        div.title-001
+            p#inl Function:&nbsp;&nbsp;
+                div#inl
+                    //p#inl $$f(x) = \frac{e^x}{x^2 - 25}$$
+                    p#inl $$f(x) = \frac{x^2 + 8}{\sqrt{x^2 - 4}}$$
+        div#graf-container_02
+            div.curr-graff_02
+            p#p-1-2 Invalid spacing entered. The first value must be less than the second, and be between -50 and 50
+        .center-001
+            p#inl Interval : from
+                input#pg-0-inp-1(type="text", name="", value="-10")
+                p#inl &nbsp; until
+                input#pg-0-inp-2(type="text", name="", value="20")
+                button#butt-003 Generate
